@@ -10,6 +10,28 @@ body {
     justify-content: center;
     margin-top: 150px;
 }
+/*buttons*/
+.buttons {
+    direction: rtl;
+    margin-top: 20px;
+    margin-right: 30px;
+    background: transparent;
+}
+
+.a {
+    border-bottom: 0 transparent;
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
 
 .test {
     position: relative;
