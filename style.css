@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: url('./image/background.jpg');
+
+}
+
+/*Container's*/
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.test {
+    position: relative;
+    background: transparent;
+    height: 400px;
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+}
